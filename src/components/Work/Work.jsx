@@ -71,14 +71,14 @@ const Work = () => {
             <div className="flex justify-end p-4">
               <button
                 onClick={handleCloseModal}
-                className="text-white text-3xl font-bold hover:text-purple-500"
+                className="fixed text-white text-3xl font-bold hover:text-purple-500"
               >
                 &times;
               </button>
             </div>
 
             <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
+              <div className="w-[90%] flex justify-center bg-gray-900 px-4">
                 <img
                   src={selectedProject.image}
                   alt={selectedProject.title}
