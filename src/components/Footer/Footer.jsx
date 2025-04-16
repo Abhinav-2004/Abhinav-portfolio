@@ -56,10 +56,6 @@ const Footer = () => {
               icon: <FaInstagram />,
               link: "https://www.instagram.com/_kittu__singh_/",
             },
-            {
-              icon: <FaYoutube />,
-              link: "https://www.youtube.com",
-            },
           ].map((item, index) => (
             <a
               key={index}
