@@ -115,7 +115,7 @@ This project is open-source and free to use — feel free to fork, clone, or con
 ## 🙌 Connect with Me
 
 - GitHub: [@Abhinav-2004](https://github.com/Abhinav-2004)
-- LinkedIn: [linkedin.com/in/your-profile](https://www.linkedin.com/in/abhinav-singh-11b748213/)
+- LinkedIn: [Abhinav Singh](https://www.linkedin.com/in/abhinav-singh-11b748213/)
 
 ---
 
