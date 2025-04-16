@@ -2,4 +2,8 @@
   .timeline-circle {
     display: none;
   }
+  .content-section {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
 }
