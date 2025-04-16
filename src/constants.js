@@ -42,15 +42,12 @@ import siliconTechLogo from "./assets/education_logo/silicontech.png";
 import bdmiLogo from "./assets/education_logo/bdmi.png";
 
 // Project Section Logo's
-import githubdetLogo from "./assets/work_logo/github_det.png";
-import csprepLogo from "./assets/work_logo/cs_prep.png";
-import movierecLogo from "./assets/work_logo/movie_rec.png";
-import taskremLogo from "./assets/work_logo/task_rem.png";
-import npmLogo from "./assets/work_logo/npm.png";
-import webverLogo from "./assets/work_logo/web_dig.png";
-import cmLogo from "./assets/work_logo/cm.png";
-import imagesearchLogo from "./assets/work_logo/image_search.png";
-import removebgLogo from "./assets/work_logo/remove_bg.png";
+import grabwayLogo from "./assets/work_logo/grabway.png";
+import bookingappLogo from "./assets/work_logo/bookingapp.png";
+import employeeLogo from "./assets/work_logo/employeeM.png";
+import chatpdfgptLogo from "./assets/work_logo/chatpdfgpt.png";
+import homeifyLogo from "./assets/work_logo/homeify.png";
+import resocLogo from "./assets/work_logo/resoc.png";
 
 export const SkillsInfo = [
   {
@@ -206,7 +203,7 @@ export const projects = [
     title: "Grabway",
     description:
       "Grabway is a smart React.js app that lets drivers post routes and users book matching rides in real-time. Built with React, TailwindCSS, and ChakraUI, it offers a smooth, modern UI. Powered by Google Maps APIs for accurate route matching and Firebase Auth for secure logins. Express.js handles API requests, while MongoDB stores all user and route data. A fast, intuitive solution for hassle-free ride-sharing.",
-    image: githubdetLogo,
+    image: grabwayLogo,
     tags: [
       "HTML",
       "CSS",
@@ -225,7 +222,7 @@ export const projects = [
     title: "ChatPDF-GPT",
     description:
       "PDF Chat AI lets users upload any PDF and chat with AI to get answers from it instantly.After Clerk authentication, PDFs are uploaded to AWS S3. Text is converted to embeddings via Gemini API and stored in Pinecone for fast vector search.User queries are processed using cosine similarity, and responses are generated with the GPT API. All message data is managed in NeonDB (PostgreSQL) for persistence.A smart, AI-powered way to interact with your documents.",
-    image: csprepLogo,
+    image: chatpdfgptLogo,
     tags: [
       "Next JS",
       "PostgreSQL",
@@ -242,7 +239,7 @@ export const projects = [
     title: "Homeify - Furniture ECommerce Clone",
     description:
       " Pepperfry Clone is a sleek React.js e-commerce app replicating core features of the original platform.User authentication is handled via an Express.js server with MongoDB, ensuring secure access. The UI is enhanced using modern libraries like Next UI, Material UI, and Chakra UI, delivering a polished and intuitive shopping experience.A full-stack clone built for performance and aesthetics.",
-    image: movierecLogo,
+    image: homeifyLogo,
     tags: ["React JS", "Express Js", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/Abhinav-2004/Homeify",
     webapp: "https://homeify-frontend.vercel.app/",
@@ -252,7 +249,7 @@ export const projects = [
     title: "CRUD Employee Management - ONLY API",
     description:
       "Employee Management System is a Spring Boot-based application that allows admins to manage employees, users, and roles with secure role-based access. It supports adding, updating, deleting, and viewing records, with security enforced via Spring Security. Designed for enterprise-level employee administration with RESTful APIs and integration-ready backend support. It is a robust solution for managing employee data efficiently.",
-    image: npmLogo,
+    image: employeeLogo,
     tags: ["Spring Boot", "Spring JPA", "Spring Security", "Java"],
     github:
       "https://github.com/Abhinav-2004/Employee-Management-JavaSpringBoot",
@@ -264,7 +261,7 @@ export const projects = [
     title: "Booking.com Clone React Native",
     description:
       "A React Native-based clone of Booking.com featuring user login, room listing, and filtering functionalities. This mobile app allows users to browse and filter various rooms based on preferences. Built with intuitive UI and seamless navigation, it serves as a foundational project for hotel booking apps with authentication and filter features.",
-    image: taskremLogo,
+    image: bookingappLogo,
     tags: ["Expo", "JavaScript", "React Native", "HTML", "CSS"],
     github: "https://github.com/Abhinav-2004/Booking.com-Clone-React-Native",
     webapp: "https://github.com/Abhinav-2004/Booking.com-Clone-React-Native",
@@ -274,9 +271,9 @@ export const projects = [
     title: "Resoc - Academic Notes Sharing Platform",
     description:
       "RESOC is the coolest academic notes-sharing platform around, built by a bunch of tech-savvy students at Silicon Institute, and it's totally free ❤️. You don't have to sell your soul to afford good quality notes anymore.",
-    image: webverLogo,
+    image: resocLogo,
     tags: ["HTML", "CSS", "JavaScript", "React Js", "Firebase"],
     github: "https://github.com/Abhinav-2004/resoc",
-    webapp: "https://notes-sit.live/",
+    webapp: "https://resoc.in/",
   },
 ];
