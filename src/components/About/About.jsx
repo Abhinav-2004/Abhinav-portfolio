@@ -44,7 +44,7 @@ const About = () => {
             I am a full-stack developer with over 2 years of experience in
             building scalable web applications. Skilled in both front-end and
             back-end development, I specialize in the MERN stack and other
-            modern technologies LIKE Sring-Boot to create seamless user
+            modern technologies Like SpringBoot to create seamless user
             experiences and efficient solutions.
           </p>
           {/* Resume Button */}
